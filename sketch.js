@@ -15,6 +15,8 @@ function setup() {
 
 function draw() {
   background(56,56,56);  
+  wall.debug = true;
+  car.debug = true;
   if (Touch.get>0 || keyDown("space")) {
   car.velocityX = speed; 
   }
